@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Style>
+            body{
+                background-color: #f0f4f8;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 20px auto;
+                background-color: #ffffffcc;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+
+            header {
+                background-color: #007acc;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                margin: 10px;
+                border: 1px solid #005f99;
+            }
+
+            main {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            footer {
+                background-color: #333333;
+                color: #ffffff;
+                padding: 15px;
+                margin: 10px;;
+                border: 1px solid #111111;
+            }
+
+            .foto img {
+            float: left;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #007acc;
+            }
+
+            .biografia p {
+            text-align: justify;
+            line-height: 1.5;
+            }
+
+            main::after {
+            content: "";
+            display: block;
+            clear: both;
+            }
+
+            footer a {
+            display: inline-block; 
+            background-color: #007acc;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            width: 100px;
+            transition: background-color 0.3s;
+            }
+
+            footer a:hover {
+            background-color: #005f99;
+            }
+            
+        </Style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Perfil Alexandre</h1>
+            </header>
+
+            <main>
+                <section class="Minha foto">
+                    <img src="Minha fto.jpg" alt="Foto de Perfil">
+                </section>
+                <section class="biografia">
+                    <h2>Biografia</h2>
+                    <p>Me chamo Alexandre, tenho 18 anos, nasci e cresci no Grajaú na Zona Sul de São Paulo.</p>
+                    <p>Aos 11 anos me mudei para Osasco, onde moro até hoje. Finalizei o Ensino Médio ano passado, e hoje estou cursando DSM na Fatec</p>
+                </section>
+
+                <footer>
+                    <p>Contato: alexlherme@gmail.com</p>
+                     <a href="https://www.instagram.com/_aleguilherm?igsh=MW12dW0zN2NjeXp2dQ==">Instagram</a>
+                    <a href="www.linkedin.com/in/alexandre-santos-0b960926a">Linkedin</a>
+                </footer>
+
+            </main>
+        </div>
+    </body>
+</html>
